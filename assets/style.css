@@ -1,0 +1,53 @@
+@font-face{
+	font-family: myWesternFont;
+	src: url(fonts/Cowboys.ttf);
+}
+
+body{
+	background-image: url("img/background.jpg");
+	color: white;
+}
+* {
+  box-sizing: border-box;
+}
+.container{
+	clear: both;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	/*padding-left: 150px;
+	padding-right: 215px;*/
+	overflow: auto;
+}
+header{
+	background-color: black;
+}
+h1{
+	text-align: center;
+	font-family: myWesternFont;
+	font-size: 50px;
+	padding: 10px;
+}
+#left-column{
+	float: left;
+	width: 100%;
+	max-width: 460px;
+	border: 1px solid #ddd;
+	padding: 30px;
+	background-color: black;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+#right-column{
+	float: right;
+	width: 100%;
+	max-width: 460px;
+	border: 1px solid #ddd;
+	padding: 30px;
+	background-color: black;
+}
+#showWord, #console{
+	text-align: center;
+}
